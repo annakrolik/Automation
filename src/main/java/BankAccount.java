@@ -6,7 +6,7 @@ public class BankAccount {
     }
 
     public BankAccount(int accountBalance){
-        this.accountBalance - accountBalance;
+        this.accountBalance = accountBalance;
 
     }
 
@@ -17,7 +17,7 @@ public class BankAccount {
         return true;
     }
     public void transfer(int amount){
-        accountBalance =+amount
+        accountBalance =+amount;
     }
     public int getAccountBalance(){
         return accountBalance;
